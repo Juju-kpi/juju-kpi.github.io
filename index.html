@@ -4,33 +4,109 @@
   <meta charset="UTF-8"> 
   <meta name="google-adsense-account" content="ca-pub-2693936283943308">
   <meta name="google-site-verification" content="kBCsc_gF5Or6ZDlu3pg6qJWHH7UrFtHiMSpvQNi8BBk">
-  <meta name="google-site-verification" content="kBCsc_gF5Or6ZDlu3pg6qJWHH7UrFtHiMSpvQNi8BBk" />
+  <meta name="google-site-verification" content="kBCsc_gF5Or6ZDlu3pg6qJWHH7UrFtHiMSpvQNi8BBk"/>
   <title>Extension Notes</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f9f9ff, #eef6ff);
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #1a3b5d;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .video-wrapper {
+      margin: 30px auto;
+      max-width: 100%;
+      aspect-ratio: 16 / 9;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .logo {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+    }
+
+    .logo img {
+      height: 48px;
+      width: 48px;
+      border-radius: 10px;
+      transition: transform 0.2s ease;
+    }
+
+    .logo img:hover {
+      transform: scale(2.2);
+    }
+  </style>
 </head>
+
 <body>
-  <!-- Logo en haut à droite -->
-<div style="position: absolute; top: 10px; right: 10px;">
-  <a href="https://chromewebstore.google.com/detail/kedkmoebedgmjiaihmcjcffiohopnono?utm_source=item-share-cb" target="_blank" rel="noopener">
-    <img src="icon128.png" alt="Logo WebNotes+" style="height: 48px; width: 48px; cursor: pointer;">
-  </a>
-</div>
+ 
+  <div class="logo">
+    <a href="https://chromewebstore.google.com/detail/kedkmoebedgmjiaihmcjcffiohopnono?utm_source=item-share-cb" target="_blank" rel="noopener">
+      <img src="icon128.png" alt="Logo WebNotes+">
+    </a>
+  </div>
 
+  <div class="container">
+    <h1>Bienvenue sur l'extension WebNotes+</h1>
+    <h2>📌Enregistrez vos notes à propos de vos pages préférées ou intéressantes, puis naviguez à travers, recherchez et supprimez-les facilement</h2>
 
-  <h1>Bienvenue sur l'extension WebNotes+</h1>
-  <h2>Vous pouvez naviguer à travers vos notes en faisant une recherche par mot et également les supprimer.</h2>
- <h2>🎥 Tutoriel vidéo de l'extension WebNotes+</h2>
-<div style="max-width: 100%; aspect-ratio: 16/9;">
-  <iframe width="100%" height="100%"
-    src="https://www.youtube.com/embed/ybATQu7tRqI"
-    title="Tutoriel WebNotes+"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-</div>
-  
-  <p>WebNotes+ est une extension de navigateur intuitive et puissante conçue pour ceux qui aiment capturer l'essentiel de leurs navigations. Que vous fassiez de la veille, des recherches ou que vous souhaitiez simplement conserver des résumés de vos lectures, cette extension est faite pour vous.
+    <h2>🎥 Tutoriel vidéo</h2>
+    <div class="video-wrapper">
+      <iframe width="100%" height="100%" 
+        src="https://www.youtube.com/embed/ybATQu7tRqI"
+        title="Tutoriel WebNotes+"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
 
+    <p><strong>WebNotes+</strong> est une extension de navigateur intuitive et puissante conçue pour ceux qui aiment capturer l'essentiel de leurs navigations. Que vous fassiez de la veille, des recherches ou que vous souhaitiez simplement conserver des résumés de vos lectures, cette extension est faite pour vous.</p>
+
+    <ul>
+      <li>🖊️ <strong>Prise de notes</strong> rapide sur toutes les pages web</li>
+      <li>📂 <strong>Organisation automatique</strong> des notes par date</li>
+      <li>📤 <strong>Exportation</strong> en PDF, texte brut ou Markdown</li>
+      <li>🧠 <strong>Résumé automatique</strong> des pages web via IA</li>
+      <li>✏️ Résumés <strong>éditables et enregistrables</strong></li>
+      <li>🔐 <strong>Respect total de votre vie privée</strong></li>
+    </ul>
+
+    <p>
 🔑 Fonctionnalités principales
 🖊️ Prise de notes sur toutes les pages web
 Notez rapidement ce qui vous intéresse, directement depuis la page que vous consultez.
@@ -65,19 +141,21 @@ Toute personne souhaitant gagner du temps en capturant et résumant des contenus
 
 🔐 Respect de votre vie privée
 Aucune donnée n’est collectée sans votre consentement. Les textes des pages sont traités uniquement pour le résumé, et ne sont pas stockés sur des serveurs externes. Rien n'est stocké en externe. Une page html de politique de confidentialité est fournie. Toutes vos notes sont hébérgées en locales et seuls vous en avez accès..</p>
-  <a href="./privacy.html">Politique de confidentialité</a>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
-     crossorigin="anonymous"></script>
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-     data-ad-slot="1234567890"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+    <p><a href="./privacy.html">📄 Lire la politique de confidentialité</a></p>
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+      crossorigin="anonymous"></script>
+
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+         data-ad-slot="1234567890"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
 </body>
 </html>
