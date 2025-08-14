@@ -143,7 +143,10 @@ Toute personne souhaitant gagner du temps en capturant et résumant des contenus
 Aucune donnée n’est collectée sans votre consentement. Les textes des pages sont traités uniquement pour le résumé, et ne sont pas stockés sur des serveurs externes. Rien n'est stocké en externe. Une page html de politique de confidentialité est fournie. Toutes vos notes sont hébérgées en locales et seuls vous en avez accès..</p>
 
 <p><a href="https://chromewebstore.google.com/detail/kedkmoebedgmjiaihmcjcffiohopnono?utm_source=item-share-cb" target="_blank" rel="noopener">👍 get on Chrome Webstore</a></p>
-    
+
+    <a href="./mentions-legales.html">📜 Mentions légales</a> |
+    <a href="./faq.html">❓ FAQ</a>
+
     <p><a href="./privacy.html">📄 Lire la politique de confidentialité</a></p>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
@@ -159,5 +162,21 @@ Aucune donnée n’est collectée sans votre consentement. Les textes des pages 
          (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </div>
+<div id="cookie-banner" style="position: fixed; bottom: 0; left: 0; right: 0; background: #1a3b5d; color: #fff; padding: 1em; font-size: 14px; text-align: center; z-index: 1000;">
+  Ce site utilise des cookies pour vous offrir une meilleure expérience et diffuser des publicités personnalisées.
+  <button onclick="acceptCookies()" style="margin-left: 10px; background: #4CAF50; color: white; border: none; padding: 6px 12px; cursor: pointer;">Accepter</button>
+</div>
+
+<script>
+function acceptCookies() {
+  localStorage.setItem('cookiesAccepted', 'true');
+  document.getElementById('cookie-banner').style.display = 'none';
+}
+
+if (localStorage.getItem('cookiesAccepted')) {
+  document.getElementById('cookie-banner').style.display = 'none';
+}
+</script>
+
 </body>
 </html>
