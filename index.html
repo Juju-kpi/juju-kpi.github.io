@@ -53,22 +53,24 @@
       overflow: hidden;
     }
 
-    .logo {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-    }
+   .logo-container {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 10px;
+}
 
-    .logo img {
-      height: 48px;
-      width: 48px;
-      border-radius: 10px;
-      transition: transform 0.2s ease;
-    }
+.logo img {
+  height: 48px;
+  width: 48px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
 
-    .logo img:hover {
-      transform: scale(2.2);
-    }
+.logo img:hover {
+  transform: scale(2.2);
+}
     .donation-section {
   text-align: center;
   margin: 40px auto 20px;
@@ -133,17 +135,18 @@
 </nav>
 
  
+  <div class="logo-container">
   <div class="logo">
     <a href="https://chromewebstore.google.com/detail/kedkmoebedgmjiaihmcjcffiohopnono?utm_source=item-share-cb" target="_blank" rel="noopener">
-      <img src="icon128.png" alt="Logo WebNotes+">
+      <img src="icon128.png" alt="Chrome">
     </a>
   </div>
-
   <div class="logo">
     <a href="https://addons.mozilla.org/fr/firefox/addon/webnotes" target="_blank" rel="noopener">
-      <img src="icon128.png" alt="Logo WebNotes+">
+      <img src="icon128.png" alt="Firefox">
     </a>
   </div>
+</div>
 
   <div class="container">
     <h1>Bienvenue sur l'extension WebNotes+</h1>
