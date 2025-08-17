@@ -58,7 +58,17 @@
   top: 15px;
   right: 15px;
   display: flex;
-  gap: 10px;
+  gap: 15px;
+}
+
+.logo a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black; /* tu peux changer selon ton design */
+  font-size: 12px;
+  font-family: sans-serif;
 }
 
 .logo img {
@@ -69,8 +79,9 @@
 }
 
 .logo img:hover {
-  transform: scale(2.2);
+  transform: scale(1.5);
 }
+
     .donation-section {
   text-align: center;
   margin: 40px auto 20px;
@@ -133,21 +144,25 @@
     </div>
   </div>
 </nav>
-
- 
-  <div class="logo-container">
+  
+ <div class="logo-container">
+  <!-- Chrome -->
   <div class="logo">
     <a href="https://chromewebstore.google.com/detail/kedkmoebedgmjiaihmcjcffiohopnono?utm_source=item-share-cb" target="_blank" rel="noopener">
       <img src="icon128.png" alt="Chrome">
+      <span>Chrome</span>
     </a>
   </div>
+
+  <!-- Firefox -->
   <div class="logo">
     <a href="https://addons.mozilla.org/fr/firefox/addon/webnotes" target="_blank" rel="noopener">
       <img src="icon128.png" alt="Firefox">
+      <span>Firefox</span>
     </a>
   </div>
 </div>
-
+  
   <div class="container">
     <h1>Bienvenue sur l'extension WebNotes+</h1>
     <h2>📌Enregistrez vos notes à propos de vos pages préférées ou intéressantes, puis naviguez à travers, recherchez et supprimez-les facilement</h2>
